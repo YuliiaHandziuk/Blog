@@ -56,6 +56,10 @@ div.menu a {
 	text-decoration: none;
 }
 
+div.menu a:hover {
+	color: #c7700a;
+}
+
 /*     */
 
 content {
@@ -104,6 +108,12 @@ div.head-article a {
 	color: #c7700a;
 	text-decoration: none;
 }
+
+div.head-article a:hover {
+	color: #161616;
+}
+
+
 div.main-article div.photo-block {
 	display: block;
 	width: 100%;
@@ -162,6 +172,11 @@ div.topic a {
 	color: #c7700a;
 	text-decoration: none;
 }
+
+div.topic a:hover {
+	color: #161616;
+}
+
 div.article div.text p {
 	font-size: 14px;
 	color: #151515;
@@ -174,6 +189,12 @@ div.article div.text a {
 	color: #c7700a;
 	text-decoration: none;
 }
+
+div.article div.text a:hover {
+	color: #161616;
+}
+
+
 div.pagination {
 	display: block;
 	width: 100%;
@@ -255,10 +276,7 @@ div.author-article div.text p {
 	color: #1a1a1a;
 	line-height: 20px;
 }
-div.author-article div.text a {
-	color: #c7700a;
-	text-decoration: none;
-}
+
 
 div.links-list {
 	display: block;
@@ -270,13 +288,21 @@ div.list li {
 	margin-left: 0;
 }
 
-div.list li p {
+ a {
 	font-size: 14px;
 	font-family: georgia;
 	color: #c7700a;
 	line-height: 20px;
+	text-decoration: none;
+	
 
 }
+
+a:hover {
+	color: #161616;
+}
+
+
 div.tag-cloud {
 	display: block;
 	margin-top: 40px;
@@ -298,6 +324,11 @@ div.block a {
 	font-family: RB_No_2;
 	color: #3f3f3f;
 }
+
+div.block a:hover {
+	color: #c7700a;
+}
+
 div.social {
 	display: block;
 	position: absolute;
@@ -364,6 +395,10 @@ footer.info a {
 	font-family: georgia;
 	text-align: left;
 	text-decoration: none;
+}
+
+footer.info a:hover {
+	color: #f4f2ee;
 }
 
 div.gallery img {
